@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24DC95AA261439C20040B5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC95A9261439C20040B5CD /* AppDelegate.swift */; };
+		24DC95AC261439C20040B5CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC95AB261439C20040B5CD /* SceneDelegate.swift */; };
+		24DC95AE261439C20040B5CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC95AD261439C20040B5CD /* ViewController.swift */; };
+		24DC95B1261439C20040B5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DC95AF261439C20040B5CD /* Main.storyboard */; };
+		24DC95B3261439C50040B5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DC95B2261439C50040B5CD /* Assets.xcassets */; };
+		24DC95B6261439C50040B5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DC95B4261439C50040B5CD /* LaunchScreen.storyboard */; };
+		24DC95C1261439C50040B5CD /* HighChartDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC95C0261439C50040B5CD /* HighChartDemoTests.swift */; };
+		24DC95CC261439C60040B5CD /* HighChartDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC95CB261439C60040B5CD /* HighChartDemoUITests.swift */; };
+		8679A217BEF48545F1437DA4 /* Pods_HighChartDemo_HighChartDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC6F3D07CABF24024E6837F /* Pods_HighChartDemo_HighChartDemoUITests.framework */; };
+		8900C168282C8ECE774CA491 /* Pods_HighChartDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEFFDF358626FAE87ED83E0 /* Pods_HighChartDemoTests.framework */; };
+		C219716C7BBB499BEBF34784 /* Pods_HighChartDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1230B4C3ADE4E91EEFF88298 /* Pods_HighChartDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24DC95BD261439C50040B5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DC959E261439C20040B5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DC95A5261439C20040B5CD;
+			remoteInfo = HighChartDemo;
+		};
+		24DC95C8261439C50040B5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DC959E261439C20040B5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DC95A5261439C20040B5CD;
+			remoteInfo = HighChartDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1230B4C3ADE4E91EEFF88298 /* Pods_HighChartDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighChartDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1709EBAE7FC1413F71F1DDB9 /* Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24DC95A6261439C20040B5CD /* HighChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC95A9261439C20040B5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24DC95AB261439C20040B5CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24DC95AD261439C20040B5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24DC95B0261439C20040B5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24DC95B2261439C50040B5CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DC95B5261439C50040B5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24DC95B7261439C50040B5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DC95BC261439C50040B5CD /* HighChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC95C0261439C50040B5CD /* HighChartDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighChartDemoTests.swift; sourceTree = "<group>"; };
+		24DC95C2261439C50040B5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DC95C7261439C50040B5CD /* HighChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC95CB261439C60040B5CD /* HighChartDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighChartDemoUITests.swift; sourceTree = "<group>"; };
+		24DC95CD261439C60040B5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3254FD5FD4079D1A2F9D9599 /* Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32C3524294085F7EC6D56697 /* Pods-HighChartDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighChartDemoTests.release.xcconfig"; path = "Target Support Files/Pods-HighChartDemoTests/Pods-HighChartDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5378E226E35415142A4C4D2E /* Pods-HighChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighChartDemo.release.xcconfig"; path = "Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D0E9986C3B838BBA1A765B33 /* Pods-HighChartDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighChartDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-HighChartDemoTests/Pods-HighChartDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC6F3D07CABF24024E6837F /* Pods_HighChartDemo_HighChartDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighChartDemo_HighChartDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEFFDF358626FAE87ED83E0 /* Pods_HighChartDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighChartDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F58FC8DE3259302D42B1DE /* Pods-HighChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighChartDemo.debug.xcconfig"; path = "Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DC95A3261439C20040B5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C219716C7BBB499BEBF34784 /* Pods_HighChartDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC95B9261439C50040B5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8900C168282C8ECE774CA491 /* Pods_HighChartDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC95C4261439C50040B5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8679A217BEF48545F1437DA4 /* Pods_HighChartDemo_HighChartDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24DC959D261439C20040B5CD = {
+			isa = PBXGroup;
+			children = (
+				24DC95A8261439C20040B5CD /* HighChartDemo */,
+				24DC95BF261439C50040B5CD /* HighChartDemoTests */,
+				24DC95CA261439C50040B5CD /* HighChartDemoUITests */,
+				24DC95A7261439C20040B5CD /* Products */,
+				C51898B8BEF5F1F307A2E33E /* Pods */,
+				9141672AEA1A543C11556B32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24DC95A7261439C20040B5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DC95A6261439C20040B5CD /* HighChartDemo.app */,
+				24DC95BC261439C50040B5CD /* HighChartDemoTests.xctest */,
+				24DC95C7261439C50040B5CD /* HighChartDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24DC95A8261439C20040B5CD /* HighChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				24DC95A9261439C20040B5CD /* AppDelegate.swift */,
+				24DC95AB261439C20040B5CD /* SceneDelegate.swift */,
+				24DC95AD261439C20040B5CD /* ViewController.swift */,
+				24DC95AF261439C20040B5CD /* Main.storyboard */,
+				24DC95B2261439C50040B5CD /* Assets.xcassets */,
+				24DC95B4261439C50040B5CD /* LaunchScreen.storyboard */,
+				24DC95B7261439C50040B5CD /* Info.plist */,
+			);
+			path = HighChartDemo;
+			sourceTree = "<group>";
+		};
+		24DC95BF261439C50040B5CD /* HighChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				24DC95C0261439C50040B5CD /* HighChartDemoTests.swift */,
+				24DC95C2261439C50040B5CD /* Info.plist */,
+			);
+			path = HighChartDemoTests;
+			sourceTree = "<group>";
+		};
+		24DC95CA261439C50040B5CD /* HighChartDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24DC95CB261439C60040B5CD /* HighChartDemoUITests.swift */,
+				24DC95CD261439C60040B5CD /* Info.plist */,
+			);
+			path = HighChartDemoUITests;
+			sourceTree = "<group>";
+		};
+		9141672AEA1A543C11556B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1230B4C3ADE4E91EEFF88298 /* Pods_HighChartDemo.framework */,
+				DCC6F3D07CABF24024E6837F /* Pods_HighChartDemo_HighChartDemoUITests.framework */,
+				DFEFFDF358626FAE87ED83E0 /* Pods_HighChartDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51898B8BEF5F1F307A2E33E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2F58FC8DE3259302D42B1DE /* Pods-HighChartDemo.debug.xcconfig */,
+				5378E226E35415142A4C4D2E /* Pods-HighChartDemo.release.xcconfig */,
+				1709EBAE7FC1413F71F1DDB9 /* Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig */,
+				3254FD5FD4079D1A2F9D9599 /* Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig */,
+				D0E9986C3B838BBA1A765B33 /* Pods-HighChartDemoTests.debug.xcconfig */,
+				32C3524294085F7EC6D56697 /* Pods-HighChartDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24DC95A5261439C20040B5CD /* HighChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DC95D0261439C60040B5CD /* Build configuration list for PBXNativeTarget "HighChartDemo" */;
+			buildPhases = (
+				7B35DDBEBD083FDB3CEF2FF8 /* [CP] Check Pods Manifest.lock */,
+				24DC95A2261439C20040B5CD /* Sources */,
+				24DC95A3261439C20040B5CD /* Frameworks */,
+				24DC95A4261439C20040B5CD /* Resources */,
+				4DC3F02E92847801D3F8876C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighChartDemo;
+			productName = HighChartDemo;
+			productReference = 24DC95A6261439C20040B5CD /* HighChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24DC95BB261439C50040B5CD /* HighChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DC95D3261439C60040B5CD /* Build configuration list for PBXNativeTarget "HighChartDemoTests" */;
+			buildPhases = (
+				9D55853068B86C82BD55F975 /* [CP] Check Pods Manifest.lock */,
+				24DC95B8261439C50040B5CD /* Sources */,
+				24DC95B9261439C50040B5CD /* Frameworks */,
+				24DC95BA261439C50040B5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DC95BE261439C50040B5CD /* PBXTargetDependency */,
+			);
+			name = HighChartDemoTests;
+			productName = HighChartDemoTests;
+			productReference = 24DC95BC261439C50040B5CD /* HighChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24DC95C6261439C50040B5CD /* HighChartDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DC95D6261439C60040B5CD /* Build configuration list for PBXNativeTarget "HighChartDemoUITests" */;
+			buildPhases = (
+				A33EE2FFF8C1EE3A4B81D745 /* [CP] Check Pods Manifest.lock */,
+				24DC95C3261439C50040B5CD /* Sources */,
+				24DC95C4261439C50040B5CD /* Frameworks */,
+				24DC95C5261439C50040B5CD /* Resources */,
+				503E5D246671402C78F91011 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DC95C9261439C50040B5CD /* PBXTargetDependency */,
+			);
+			name = HighChartDemoUITests;
+			productName = HighChartDemoUITests;
+			productReference = 24DC95C7261439C50040B5CD /* HighChartDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24DC959E261439C20040B5CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					24DC95A5261439C20040B5CD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					24DC95BB261439C50040B5CD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 24DC95A5261439C20040B5CD;
+					};
+					24DC95C6261439C50040B5CD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 24DC95A5261439C20040B5CD;
+					};
+				};
+			};
+			buildConfigurationList = 24DC95A1261439C20040B5CD /* Build configuration list for PBXProject "HighChartDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24DC959D261439C20040B5CD;
+			productRefGroup = 24DC95A7261439C20040B5CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DC95A5261439C20040B5CD /* HighChartDemo */,
+				24DC95BB261439C50040B5CD /* HighChartDemoTests */,
+				24DC95C6261439C50040B5CD /* HighChartDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24DC95A4261439C20040B5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC95B6261439C50040B5CD /* LaunchScreen.storyboard in Resources */,
+				24DC95B3261439C50040B5CD /* Assets.xcassets in Resources */,
+				24DC95B1261439C20040B5CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC95BA261439C50040B5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC95C5261439C50040B5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DC3F02E92847801D3F8876C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503E5D246671402C78F91011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B35DDBEBD083FDB3CEF2FF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighChartDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D55853068B86C82BD55F975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighChartDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33EE2FFF8C1EE3A4B81D745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighChartDemo-HighChartDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DC95A2261439C20040B5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC95AE261439C20040B5CD /* ViewController.swift in Sources */,
+				24DC95AA261439C20040B5CD /* AppDelegate.swift in Sources */,
+				24DC95AC261439C20040B5CD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC95B8261439C50040B5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC95C1261439C50040B5CD /* HighChartDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC95C3261439C50040B5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC95CC261439C60040B5CD /* HighChartDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DC95BE261439C50040B5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DC95A5261439C20040B5CD /* HighChartDemo */;
+			targetProxy = 24DC95BD261439C50040B5CD /* PBXContainerItemProxy */;
+		};
+		24DC95C9261439C50040B5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DC95A5261439C20040B5CD /* HighChartDemo */;
+			targetProxy = 24DC95C8261439C50040B5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24DC95AF261439C20040B5CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DC95B0261439C20040B5CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24DC95B4261439C50040B5CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DC95B5261439C50040B5CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24DC95CE261439C60040B5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24DC95CF261439C60040B5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DC95D1261439C60040B5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F58FC8DE3259302D42B1DE /* Pods-HighChartDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DM37TEFRF;
+				INFOPLIST_FILE = HighChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xminds.HighChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DC95D2261439C60040B5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5378E226E35415142A4C4D2E /* Pods-HighChartDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DM37TEFRF;
+				INFOPLIST_FILE = HighChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xminds.HighChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24DC95D4261439C60040B5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E9986C3B838BBA1A765B33 /* Pods-HighChartDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DM37TEFRF;
+				INFOPLIST_FILE = HighChartDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xminds.HighChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighChartDemo.app/HighChartDemo";
+			};
+			name = Debug;
+		};
+		24DC95D5261439C60040B5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C3524294085F7EC6D56697 /* Pods-HighChartDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DM37TEFRF;
+				INFOPLIST_FILE = HighChartDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xminds.HighChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighChartDemo.app/HighChartDemo";
+			};
+			name = Release;
+		};
+		24DC95D7261439C60040B5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1709EBAE7FC1413F71F1DDB9 /* Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DM37TEFRF;
+				INFOPLIST_FILE = HighChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xminds.HighChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HighChartDemo;
+			};
+			name = Debug;
+		};
+		24DC95D8261439C60040B5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3254FD5FD4079D1A2F9D9599 /* Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DM37TEFRF;
+				INFOPLIST_FILE = HighChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xminds.HighChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HighChartDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DC95A1261439C20040B5CD /* Build configuration list for PBXProject "HighChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC95CE261439C60040B5CD /* Debug */,
+				24DC95CF261439C60040B5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DC95D0261439C60040B5CD /* Build configuration list for PBXNativeTarget "HighChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC95D1261439C60040B5CD /* Debug */,
+				24DC95D2261439C60040B5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DC95D3261439C60040B5CD /* Build configuration list for PBXNativeTarget "HighChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC95D4261439C60040B5CD /* Debug */,
+				24DC95D5261439C60040B5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DC95D6261439C60040B5CD /* Build configuration list for PBXNativeTarget "HighChartDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC95D7261439C60040B5CD /* Debug */,
+				24DC95D8261439C60040B5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24DC959E261439C20040B5CD /* Project object */;
+}

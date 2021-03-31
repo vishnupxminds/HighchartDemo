@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF4F70716E2ABAD8F40EBC235F0E8912 /* Build configuration list for PBXAggregateTarget "Highcharts" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Highcharts;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		23AA331B06699629CDF079F22A11D1F7 /* Pods-HighChartDemo-HighChartDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460E20FC8E1F84E1443F6CF7290E53BC /* Pods-HighChartDemo-HighChartDemoUITests-dummy.m */; };
+		24F1DE482D9FF5BC3DD874AD2D8FCCDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C3E03E747F4ACFD0BDE9D95C7A14A6A /* Pods-HighChartDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B77F95773BB3CC6C706F97B2E682A6C4 /* Pods-HighChartDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E739E36D23DD6318CC83BEC771A0B7E /* Pods-HighChartDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C77E8B8522DC96529431D71B52E706 /* Pods-HighChartDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD327497FF59C5B11F7A00E95F2BB1C /* Pods-HighChartDemo-HighChartDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A92026126E207AD85D935FF7A81077 /* Pods-HighChartDemo-HighChartDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3246C1EE29B1CD0E36D7032CD8CDEED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		329E8FB784A0CC7C7C0D1153B77082A2 /* Pods-HighChartDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B0CB2D6D5DC86FFBD3FA04B10B324D /* Pods-HighChartDemoTests-dummy.m */; };
+		41E99A1A7B92C9A14C2EA5A995D7B412 /* Pods-HighChartDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F611E47B63DA778CDEE955DF454EAAEF /* Pods-HighChartDemo-dummy.m */; };
+		CF91A6465C9D9B80D8486509DBC2DF51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035311514555C05226D2EF6750E3F848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE253FFF71532979EAEFDFB5BE8947F7;
+			remoteInfo = Highcharts;
+		};
+		802F33E44B2E1F6244A58276DF82EE94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE253FFF71532979EAEFDFB5BE8947F7;
+			remoteInfo = Highcharts;
+		};
+		EA200E863C5C56A5224ADA9F345117C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086EF904C559D6518FEC7765175FF46A;
+			remoteInfo = "Pods-HighChartDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057900F4D22C4A4D2BEF33B5A92E87A0 /* Pods_HighChartDemo_HighChartDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HighChartDemo_HighChartDemoUITests.framework; path = "Pods-HighChartDemo-HighChartDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5470E20A094F00E78076DD869915EB /* Pods-HighChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HighChartDemo.release.xcconfig"; sourceTree = "<group>"; };
+		27066CEB59DF8C8B2384F3B2FF35B573 /* Pods-HighChartDemo-HighChartDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HighChartDemo-HighChartDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		33F93B61B69D847AB8E32E271FA4E019 /* Pods-HighChartDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HighChartDemo.modulemap"; sourceTree = "<group>"; };
+		355B9A103F71AD535DA414E093A440D9 /* Pods-HighChartDemo-HighChartDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HighChartDemo-HighChartDemoUITests.modulemap"; sourceTree = "<group>"; };
+		3D40787A1B16B0B855D27126BA21430A /* Highcharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highcharts.release.xcconfig; sourceTree = "<group>"; };
+		460E20FC8E1F84E1443F6CF7290E53BC /* Pods-HighChartDemo-HighChartDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HighChartDemo-HighChartDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		503BAA266F7B930E9DFB35F47B04956F /* Pods-HighChartDemo-HighChartDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HighChartDemo-HighChartDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		515BAAE964C54408C7F3871DBC04130E /* Pods-HighChartDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HighChartDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52F72119DDB6946E89D6D10D6A7BDE34 /* Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		593033E713232EFA0D412AD7683906C6 /* Pods-HighChartDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HighChartDemo-Info.plist"; sourceTree = "<group>"; };
+		6A980B49815BB6AE9BBA2BAE73603B80 /* Pods-HighChartDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HighChartDemoTests-Info.plist"; sourceTree = "<group>"; };
+		6B8AA0CC3BA59B65574FCB629F6A3CB0 /* Pods-HighChartDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HighChartDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78C77E8B8522DC96529431D71B52E706 /* Pods-HighChartDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HighChartDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		78D22CE63AC13BACCAA42F832CE2CA36 /* Pods-HighChartDemo-HighChartDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HighChartDemo-HighChartDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7C3FB7157B001548D0A868730821674F /* Pods_HighChartDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HighChartDemo.framework; path = "Pods-HighChartDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFCF3252332BC99E85C6C48A5459500 /* Pods-HighChartDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HighChartDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D4986E285AD94C7C0AC01907E1392C /* Pods-HighChartDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HighChartDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A411825D133E83D277C9E5B0D9BC1180 /* Pods-HighChartDemo-HighChartDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HighChartDemo-HighChartDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFC918CF785BC5CAEE59A945A801FF0E /* Pods-HighChartDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HighChartDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B77F95773BB3CC6C706F97B2E682A6C4 /* Pods-HighChartDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HighChartDemo-umbrella.h"; sourceTree = "<group>"; };
+		C9333EE2B8FF21413DB4E063D883F5D5 /* Highcharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highcharts.debug.xcconfig; sourceTree = "<group>"; };
+		CD40FB5B39B2C99583E3142C42D70083 /* Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D98261571CFE7AB4F8A1A04FF380B79C /* Pods-HighChartDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HighChartDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DD1D1AFB2B64689BB7CA2496BFF67337 /* Pods-HighChartDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HighChartDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3FD871011679B443B373F1EBAEC219D /* Highcharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Highcharts.framework; path = development/Highcharts.framework; sourceTree = "<group>"; };
+		E7DB3CC2CCAD03C2DED90B32BE1EDFB6 /* Pods_HighChartDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HighChartDemoTests.framework; path = "Pods-HighChartDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A92026126E207AD85D935FF7A81077 /* Pods-HighChartDemo-HighChartDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HighChartDemo-HighChartDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		F4B0CB2D6D5DC86FFBD3FA04B10B324D /* Pods-HighChartDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HighChartDemoTests-dummy.m"; sourceTree = "<group>"; };
+		F611E47B63DA778CDEE955DF454EAAEF /* Pods-HighChartDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HighChartDemo-dummy.m"; sourceTree = "<group>"; };
+		FDC9D5EF222F72864D8516F384A83793 /* Pods-HighChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HighChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FFAFDE92595797C7325287E1847A56AC /* Pods-HighChartDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HighChartDemoTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FB21A9DC309FBAD24103703FAB9979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF91A6465C9D9B80D8486509DBC2DF51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C87A44225FE5B07DF217AA9B023438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246C1EE29B1CD0E36D7032CD8CDEED3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA0C58E847DA0C051FE569B25E01FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F1DE482D9FF5BC3DD874AD2D8FCCDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A435F070B548E527D885840AA0BC53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A945E53E3082222F9B796F5742950E6D /* Highcharts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		028F011A70B806A473D02B675A98A028 /* Pods-HighChartDemo-HighChartDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				355B9A103F71AD535DA414E093A440D9 /* Pods-HighChartDemo-HighChartDemoUITests.modulemap */,
+				A411825D133E83D277C9E5B0D9BC1180 /* Pods-HighChartDemo-HighChartDemoUITests-acknowledgements.markdown */,
+				503BAA266F7B930E9DFB35F47B04956F /* Pods-HighChartDemo-HighChartDemoUITests-acknowledgements.plist */,
+				460E20FC8E1F84E1443F6CF7290E53BC /* Pods-HighChartDemo-HighChartDemoUITests-dummy.m */,
+				78D22CE63AC13BACCAA42F832CE2CA36 /* Pods-HighChartDemo-HighChartDemoUITests-frameworks.sh */,
+				27066CEB59DF8C8B2384F3B2FF35B573 /* Pods-HighChartDemo-HighChartDemoUITests-Info.plist */,
+				F0A92026126E207AD85D935FF7A81077 /* Pods-HighChartDemo-HighChartDemoUITests-umbrella.h */,
+				CD40FB5B39B2C99583E3142C42D70083 /* Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig */,
+				52F72119DDB6946E89D6D10D6A7BDE34 /* Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-HighChartDemo-HighChartDemoUITests";
+			path = "Target Support Files/Pods-HighChartDemo-HighChartDemoUITests";
+			sourceTree = "<group>";
+		};
+		1993632244662DC13B1D97B830F5B379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FD871011679B443B373F1EBAEC219D /* Highcharts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DC3A1B0697117647B8C2F31F03BF1AF /* Pods-HighChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFAFDE92595797C7325287E1847A56AC /* Pods-HighChartDemoTests.modulemap */,
+				A2D4986E285AD94C7C0AC01907E1392C /* Pods-HighChartDemoTests-acknowledgements.markdown */,
+				515BAAE964C54408C7F3871DBC04130E /* Pods-HighChartDemoTests-acknowledgements.plist */,
+				F4B0CB2D6D5DC86FFBD3FA04B10B324D /* Pods-HighChartDemoTests-dummy.m */,
+				6A980B49815BB6AE9BBA2BAE73603B80 /* Pods-HighChartDemoTests-Info.plist */,
+				78C77E8B8522DC96529431D71B52E706 /* Pods-HighChartDemoTests-umbrella.h */,
+				6B8AA0CC3BA59B65574FCB629F6A3CB0 /* Pods-HighChartDemoTests.debug.xcconfig */,
+				8CFCF3252332BC99E85C6C48A5459500 /* Pods-HighChartDemoTests.release.xcconfig */,
+			);
+			name = "Pods-HighChartDemoTests";
+			path = "Target Support Files/Pods-HighChartDemoTests";
+			sourceTree = "<group>";
+		};
+		698A77A31AC74127A5D4B1032E066915 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9333EE2B8FF21413DB4E063D883F5D5 /* Highcharts.debug.xcconfig */,
+				3D40787A1B16B0B855D27126BA21430A /* Highcharts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Highcharts";
+			sourceTree = "<group>";
+		};
+		A2C7A8FB8A8B00FDE7D2412E49B278A8 /* Pods-HighChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33F93B61B69D847AB8E32E271FA4E019 /* Pods-HighChartDemo.modulemap */,
+				AFC918CF785BC5CAEE59A945A801FF0E /* Pods-HighChartDemo-acknowledgements.markdown */,
+				DD1D1AFB2B64689BB7CA2496BFF67337 /* Pods-HighChartDemo-acknowledgements.plist */,
+				F611E47B63DA778CDEE955DF454EAAEF /* Pods-HighChartDemo-dummy.m */,
+				D98261571CFE7AB4F8A1A04FF380B79C /* Pods-HighChartDemo-frameworks.sh */,
+				593033E713232EFA0D412AD7683906C6 /* Pods-HighChartDemo-Info.plist */,
+				B77F95773BB3CC6C706F97B2E682A6C4 /* Pods-HighChartDemo-umbrella.h */,
+				FDC9D5EF222F72864D8516F384A83793 /* Pods-HighChartDemo.debug.xcconfig */,
+				1C5470E20A094F00E78076DD869915EB /* Pods-HighChartDemo.release.xcconfig */,
+			);
+			name = "Pods-HighChartDemo";
+			path = "Target Support Files/Pods-HighChartDemo";
+			sourceTree = "<group>";
+		};
+		A83D9C693F0483A84C38A676B3C0DAF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C3FB7157B001548D0A868730821674F /* Pods_HighChartDemo.framework */,
+				057900F4D22C4A4D2BEF33B5A92E87A0 /* Pods_HighChartDemo_HighChartDemoUITests.framework */,
+				E7DB3CC2CCAD03C2DED90B32BE1EDFB6 /* Pods_HighChartDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A945E53E3082222F9B796F5742950E6D /* Highcharts */ = {
+			isa = PBXGroup;
+			children = (
+				1993632244662DC13B1D97B830F5B379 /* Frameworks */,
+				698A77A31AC74127A5D4B1032E066915 /* Support Files */,
+			);
+			name = Highcharts;
+			path = Highcharts;
+			sourceTree = "<group>";
+		};
+		C5EF4D8C502824A5A9BD497E71E60B43 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7A8FB8A8B00FDE7D2412E49B278A8 /* Pods-HighChartDemo */,
+				028F011A70B806A473D02B675A98A028 /* Pods-HighChartDemo-HighChartDemoUITests */,
+				5DC3A1B0697117647B8C2F31F03BF1AF /* Pods-HighChartDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				00A435F070B548E527D885840AA0BC53 /* Pods */,
+				A83D9C693F0483A84C38A676B3C0DAF6 /* Products */,
+				C5EF4D8C502824A5A9BD497E71E60B43 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13F0BE668A39E71018A6C467E53CB6A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E739E36D23DD6318CC83BEC771A0B7E /* Pods-HighChartDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD78F71D5C7793350FDD7830531EE03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3E03E747F4ACFD0BDE9D95C7A14A6A /* Pods-HighChartDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F0DD295187A4272B4EE82E93906AB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD327497FF59C5B11F7A00E95F2BB1C /* Pods-HighChartDemo-HighChartDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		086EF904C559D6518FEC7765175FF46A /* Pods-HighChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE84042E53C6C0097FCF20EB9907DB4 /* Build configuration list for PBXNativeTarget "Pods-HighChartDemo" */;
+			buildPhases = (
+				6AD78F71D5C7793350FDD7830531EE03 /* Headers */,
+				6681C1ED2D16D9713745AAEFE19709C6 /* Sources */,
+				7CA0C58E847DA0C051FE569B25E01FE0 /* Frameworks */,
+				43737A1B75F1801D43186DA5E2A8B9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF15AC42545038960D4149AA35AC2EBE /* PBXTargetDependency */,
+			);
+			name = "Pods-HighChartDemo";
+			productName = "Pods-HighChartDemo";
+			productReference = 7C3FB7157B001548D0A868730821674F /* Pods_HighChartDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD6BD4BAB1FA322183F335A13B948668 /* Pods-HighChartDemo-HighChartDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F5448C1BC2622FDED07BA9B58F9264 /* Build configuration list for PBXNativeTarget "Pods-HighChartDemo-HighChartDemoUITests" */;
+			buildPhases = (
+				A0F0DD295187A4272B4EE82E93906AB6 /* Headers */,
+				3F262FB1A7AEF73ADD7E288140AA0D01 /* Sources */,
+				30FB21A9DC309FBAD24103703FAB9979 /* Frameworks */,
+				2CFD8941A42BD5F8359147177E7BAC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6FACA5B5B71B76C5D1A407110C02D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HighChartDemo-HighChartDemoUITests";
+			productName = "Pods-HighChartDemo-HighChartDemoUITests";
+			productReference = 057900F4D22C4A4D2BEF33B5A92E87A0 /* Pods_HighChartDemo_HighChartDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB149778B53E18DCD09AFFD4DB4403E0 /* Pods-HighChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E622330D6114C303CF5C94C33B6573 /* Build configuration list for PBXNativeTarget "Pods-HighChartDemoTests" */;
+			buildPhases = (
+				13F0BE668A39E71018A6C467E53CB6A9 /* Headers */,
+				C29323BCACFF29589591C9A7F7039CCE /* Sources */,
+				42C87A44225FE5B07DF217AA9B023438 /* Frameworks */,
+				BC1AD50CA924BAFF538BF2854616DB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1177D69EB63F2A48BE7B51D70D684CD /* PBXTargetDependency */,
+			);
+			name = "Pods-HighChartDemoTests";
+			productName = "Pods-HighChartDemoTests";
+			productReference = E7DB3CC2CCAD03C2DED90B32BE1EDFB6 /* Pods_HighChartDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A83D9C693F0483A84C38A676B3C0DAF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */,
+				086EF904C559D6518FEC7765175FF46A /* Pods-HighChartDemo */,
+				BD6BD4BAB1FA322183F335A13B948668 /* Pods-HighChartDemo-HighChartDemoUITests */,
+				FB149778B53E18DCD09AFFD4DB4403E0 /* Pods-HighChartDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFD8941A42BD5F8359147177E7BAC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43737A1B75F1801D43186DA5E2A8B9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1AD50CA924BAFF538BF2854616DB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F262FB1A7AEF73ADD7E288140AA0D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AA331B06699629CDF079F22A11D1F7 /* Pods-HighChartDemo-HighChartDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6681C1ED2D16D9713745AAEFE19709C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E99A1A7B92C9A14C2EA5A995D7B412 /* Pods-HighChartDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29323BCACFF29589591C9A7F7039CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329E8FB784A0CC7C7C0D1153B77082A2 /* Pods-HighChartDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1177D69EB63F2A48BE7B51D70D684CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HighChartDemo";
+			target = 086EF904C559D6518FEC7765175FF46A /* Pods-HighChartDemo */;
+			targetProxy = EA200E863C5C56A5224ADA9F345117C0 /* PBXContainerItemProxy */;
+		};
+		AF15AC42545038960D4149AA35AC2EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highcharts;
+			target = DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */;
+			targetProxy = 035311514555C05226D2EF6750E3F848 /* PBXContainerItemProxy */;
+		};
+		EB6FACA5B5B71B76C5D1A407110C02D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highcharts;
+			target = DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */;
+			targetProxy = 802F33E44B2E1F6244A58276DF82EE94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		428B08478E3883965438BC533AF791EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFCF3252332BC99E85C6C48A5459500 /* Pods-HighChartDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HighChartDemoTests/Pods-HighChartDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HighChartDemoTests/Pods-HighChartDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F18B698E7B25D9E7418DDFD563AB762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9333EE2B8FF21413DB4E063D883F5D5 /* Highcharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A1F69A1676DE2359B23CC74D4CB28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D40787A1B16B0B855D27126BA21430A /* Highcharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68DD9A4B363978641F34070D231523B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8AA0CC3BA59B65574FCB629F6A3CB0 /* Pods-HighChartDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HighChartDemoTests/Pods-HighChartDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HighChartDemoTests/Pods-HighChartDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		844B22D1B6D0AF92018AE52FC1FB7A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5470E20A094F00E78076DD869915EB /* Pods-HighChartDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB7A7FA25397FADF640761768EBC39F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F72119DDB6946E89D6D10D6A7BDE34 /* Pods-HighChartDemo-HighChartDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C49FBCBB4EF8695696719717249F3095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC9D5EF222F72864D8516F384A83793 /* Pods-HighChartDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HighChartDemo/Pods-HighChartDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7A382BF4221DA056DCC086C52372FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD40FB5B39B2C99583E3142C42D70083 /* Pods-HighChartDemo-HighChartDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HighChartDemo-HighChartDemoUITests/Pods-HighChartDemo-HighChartDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE84042E53C6C0097FCF20EB9907DB4 /* Build configuration list for PBXNativeTarget "Pods-HighChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49FBCBB4EF8695696719717249F3095 /* Debug */,
+				844B22D1B6D0AF92018AE52FC1FB7A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4F70716E2ABAD8F40EBC235F0E8912 /* Build configuration list for PBXAggregateTarget "Highcharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F18B698E7B25D9E7418DDFD563AB762 /* Debug */,
+				67A1F69A1676DE2359B23CC74D4CB28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E622330D6114C303CF5C94C33B6573 /* Build configuration list for PBXNativeTarget "Pods-HighChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DD9A4B363978641F34070D231523B9 /* Debug */,
+				428B08478E3883965438BC533AF791EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F5448C1BC2622FDED07BA9B58F9264 /* Build configuration list for PBXNativeTarget "Pods-HighChartDemo-HighChartDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A382BF4221DA056DCC086C52372FC4 /* Debug */,
+				AB7A7FA25397FADF640761768EBC39F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
